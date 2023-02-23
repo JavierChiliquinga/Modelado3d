@@ -1,0 +1,389 @@
+html{
+    height: 250%;
+    /*background: linear-gradient(155deg, #676d55 0, #5f6b52 8.33%, #56684f 16.67%, #4c654b 25%, #406249 33.33%, #325e46 41.67%, #1f5944 50%, #005443 58.33%, #005044 66.67%, #004c46 75%, #004849 83.33%, #00454c 91.67%, #004250 100%);
+    */
+    /*background-color: white;*/
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    /*background-color: #117a65;*/
+    padding: 5% 0;
+    /*background-color: #00695C ;
+    */
+    /*background-color:#455A64 ;*/
+    background-color: #455A64;
+    /*background-color: white;*/
+    border-style: solid;
+    border-color: #455A64;
+
+}
+
+.logojc{
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 20%;
+    height: 12.5%;
+}
+.titulo{
+    width: 90%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+main section{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #455A64;
+    border-radius: 15px;
+}
+/*Imagenes de la jaula*/
+.jaula{
+    position: absolute;
+    top: 30%;
+    width: 95%;
+    left: 2.5%;
+    height: 1100%;
+}
+.jaula p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.jconjunto{
+    position: absolute;
+    top: 0.8%;
+    width: 95%;
+    height: 8%;
+    left: 2.5%;
+}
+.estconjunto{
+    position: absolute;
+    top:9% ;
+    width: 95%;
+    height: 8%;
+    left: 2.5%;
+}
+.estplano{
+    position: absolute;
+    top:17.5% ;
+    width: 95%;
+    height: 8%;
+    left: 2.5%;
+}
+.vendiagrama{
+    position: absolute;
+    top:26% ;
+    width: 60%;
+    height: 5%;
+    left: 17.5%;
+}
+.venplano{
+    position: absolute;
+    top:31.5% ;
+    width: 95%;
+    height: 8%;
+    left: 2.5%;
+}
+.caldiagrama{
+    position: absolute;
+    top:40% ;
+    width: 50%;
+    height: 5%;
+    left: 22.5%;
+}
+.calplano{
+    position: absolute;
+    top:45.5% ;
+    width: 95%;
+    height: 8%;
+    left: 2.5%;
+}
+.limdiagrama{
+    position: absolute;
+    top:54.5% ;
+    width: 60%;
+    height: 5%;
+    left: 17.5%;
+}
+.limplano{
+    position: absolute;
+    top:60% ;
+    width: 95%;
+    height: 8%;
+    left: 2.5%;
+}
+.sensdiagrama{
+    position: absolute;
+    top:68.5% ;
+    width: 50%;
+    height: 5.5%;
+    left: 22.5%;
+}
+.sensplano{
+    position: absolute;
+    top:74.5% ;
+    width: 95%;
+    height: 8%;
+    left: 2.5%;
+}
+.tendiagrama{
+    position: absolute;
+    top:82.7% ;
+    width: 50%;
+    height: 5%;
+    left: 22.5%;
+}
+.tenplano{
+    position: absolute;
+    top:88% ;
+    width: 70%;
+    height: 12%;
+    left: 12.5%;
+}
+/*Imagenes del lgokart*/
+.gokart{
+    position: absolute;
+    top: 1140%;
+    left: 2.5%;
+    width: 95%;
+    height: 310%;
+}
+.gokart p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.gokart img{
+    position: absolute;
+}
+.gokart3d{
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    left: 35%;
+}
+.gokartplano{
+    top: 25%;
+    width: 95%;
+    left: 2.5%;
+    height: 40%;
+}
+.gokartcorte{
+    top: 68%;
+    width: 95%;
+    left: 2.5%;
+    height: 30%;
+}
+/*Imagenes del doblador*/
+.dobladoratubo{
+    position: absolute;
+    top: 1460%;
+    width:95%;
+    left: 2.5%;
+    height: 100%;
+}
+.dobladoratubo p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.dobladora{
+    position: absolute;
+    top: 9%;
+    width: 95%;
+    left: 2.5%;
+    height: 85%;
+}
+/*Imagnees de la entenalla*/
+.entenalla{
+    position: absolute;
+    top: 1570%;
+    width: 95%;
+    left: 2.5%;
+    height: 100%;
+}
+.entenalla p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.entenalla3d{
+    position: absolute;
+    top: 13%;
+    width: 50%;
+    left: 22.5%;
+    height: 80%;
+}
+
+/*Imagenes de la desgranadora*/
+.desgranadoramaiz{
+    position: absolute;
+    top: 1680%;
+    width: 95%;
+    left: 2.5%;
+    height: 220%;
+}
+.desgranadoramaiz p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.desconjunto{
+    position: absolute;
+    top: 5%;
+    width: 95%;
+    left: 2.5%;
+    height: 50%;
+}
+.desest{
+    position: absolute;
+    top: 58%;
+    width: 95%;
+    left: 2.5%;
+    height: 40%;
+}
+/*Imagenes del remolque*/
+.remolque{
+    position: absolute;
+    top: 1910%;
+    width: 95%;
+    left: 2.5%;
+    height: 120%;
+
+}
+.remolque p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.remplano{
+    position: absolute;
+    top: 10%;
+    width: 95%;
+    left: 2.5%;
+    height: 80%;
+}
+
+/*Imagenes del robot*/
+.robot{
+    position: absolute;
+    top: 2040%;
+    width: 95%;
+    left: 2.5%;
+    height: 250%;
+}
+.robot p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.robotim1{
+    position: absolute;
+    top: 5%;
+    width: 60%;
+    left: 17.5%;
+    height: 45%;
+}
+.robotim2{
+    position: absolute;
+    top: 52%;
+    width: 60%;
+    left: 17.5%;
+    height: 45%;
+}
+
+/*Imagenes de la grua*/
+.grua{
+    position: absolute;
+    top: 2300%;
+    width: 95%;
+    height: 200%;
+    left: 2.5%;
+}
+.grua p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.gruaim1{
+    position: absolute;
+    top: 8%;
+    width: 70%;
+    left: 12.5%;
+    height: 35%;
+}
+.gruaim2{
+    position: absolute;
+    top: 45%;
+    width: 95%;
+    left: 2.5%;
+    height: 50%;
+}
+footer{
+    width: 100%;
+    padding: 5% 0;
+    position: absolute;
+    bottom: -2450%;
+    background: #455A64;
+    /*background: linear-gradient(white,#455A64);*/
+}
+.pielogo{
+    position: absolute;
+    top: 25%;
+    width: 25%;
+    left: 8%;
+    height: 50%;
+}
+.logospie{
+    position: absolute;
+    top: 5%;
+    width: 25%;
+    left: 80%;
+    height: 45%;
+}
+.wlogo{
+    position: absolute;
+    top: 15%;
+    width: 15%;
+    
+    height: 70%;
+}
+.llogo{
+    position: absolute;
+    top: 120%;
+    width: 15%;
+    height: 70%;
+}
+
+.numerotelf{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+    top: 5%;
+    left: 45%;
+}
+.linked{
+    position: absolute;
+    top: 45%;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+    left: 45%;
+}
+

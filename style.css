@@ -332,6 +332,39 @@ main section{
     left: 2.5%;
     height: 50%;
 }
+.garra{
+    position: absolute;
+    top: 2800%;
+    width: 95%;
+    height: 200%;
+    left: 2.5%;
+}
+.garra p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+.gruaim1{
+    position: absolute;
+    top: 8%;
+    width: 70%;
+    left: 12.5%;
+    height: 35%;
+}
+.gruaim2{
+    position: absolute;
+    top: 45%;
+    width: 95%;
+    left: 2.5%;
+    height: 50%;
+}
+
+
+
+
+
+
 footer{
     width: 100%;
     padding: 5% 0;
